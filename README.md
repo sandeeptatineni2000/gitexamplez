@@ -25,3 +25,8 @@ $ git push
 $ git remote set-url origin git@github.com:sandeeptatineni2000/gitexamplez.git
 #got using ssh clone url
 ```
+
+###Deleting a file on remote serer or website when you have deleted it locally
+``` sh
+$ git add -u
+```
