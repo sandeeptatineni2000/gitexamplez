@@ -30,3 +30,9 @@ $ git remote set-url origin git@github.com:sandeeptatineni2000/gitexamplez.git
 ``` sh
 $ git add -u
 ```
+
+### Working together with others
+```sh
+# fork repo you want to work on
+$ git clone https://github.com/saitatineni2000/gitexamplez.git
+```
