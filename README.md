@@ -1,7 +1,7 @@
 # Useful GIT Commands
 
 ### Creating a repo online for <b>first time</b>!
-```
+``` sh
 $ touch README.md
 $ git init
 $ git add README.md
@@ -13,7 +13,7 @@ $ git push -u origin master
 
 
 ### When adding on to your repository online with changes
-```
+``` sh
 $ git add README.md or git add .
 $ git commit -m "added new commands"
 $ git push
