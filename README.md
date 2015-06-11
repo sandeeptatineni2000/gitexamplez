@@ -55,3 +55,20 @@ $ git reset --hard commitSHA###...=changes staging index and local folde to matc
 # removing 3 commits from online github repo
 $ git push -f origin HEAD^^^:branchNameToUndoLast3Pushs
 ```
+
+
+###Branch Commands
+``` sh
+$ git branch 
+#list all branches in working folder
+
+$ git branch newBranchName
+$ git checkout newBranchName
+#switch to branch newBranchName
+
+$ git push origin newBranchName 
+# adds new Branch to github
+
+$ git branch -d branchNameToDelete 
+#delete branch while you are on different branch
+```
