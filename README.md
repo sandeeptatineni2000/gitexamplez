@@ -45,3 +45,13 @@ $ git clone https://github.com/saitatineni2000/gitexamplez.git
 $ git rm -- cached localFileName
 # add localFileName to .gitignore file and then commit the changes
 ```
+
+### Commands for fixing problems
+
+``` sh
+#undo multiple commits
+$ git reset --hard commitSHA###...=changes staging index and local folde to match online repo commit
+
+# removing 3 commits from online github repo
+$ git push -f origin HEAD^^^:branchNameToUndoLast3Pushs
+```
