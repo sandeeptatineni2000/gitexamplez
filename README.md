@@ -72,3 +72,5 @@ $ git push origin newBranchName
 $ git branch -d branchNameToDelete 
 #delete branch while you are on different branch
 ```
+
+Finally added to addedBranchCommands
