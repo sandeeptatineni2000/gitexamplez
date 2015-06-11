@@ -39,3 +39,9 @@ $ git add -u
 $ git clone https://github.com/saitatineni2000/gitexamplez.git
 ```
 >>>>>>> 68d55da9d2cd1680ed6a70c03ee6b5b9dcd9661d
+
+###Removing a file from online but keep it locally
+``` sh
+$ git rm -- cached localFileName
+# add localFileName to .gitignore file and then commit the changes
+```
